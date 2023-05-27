@@ -6,7 +6,6 @@ import Card from "./components/card";
 function App() {
 
     const baseUrl = process.env.REACT_APP_BASE_URL;
-    console.log(process.env)
 
     const [values, setValues] = useState();
     const [games, setGames] = useState();
